@@ -5,17 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello World</title>
-  
 </head>
 
 <body>
   <h1>Lets Maths</h1>
-<form action="process-form" method="post">
-  <input type="text" name="num1" placeholder="Enter your first number">
-  <input type="text" name="num2" placeholder="Enter your second number">
-  
-  <button type="submit">Submit</button>
-</form>
+  <form action="process-form" method="post">
+    <input type="text" name="num1" placeholder="Enter your first number">
+    <input type="text" name="num2" placeholder="Enter your second number">
+
+    <label>
+      <input type="radio" name="operation" value="add" checked> Add
+    </label>
+    <label>
+      <input type="radio" name="operation" value="subtract"> Subtract
+    </label>
+    <label>
+      <input type="radio" name="operation" value="multiply"> Multiply
+    </label>
+    <label>
+      <input type="radio" name="operation" value="divide"> Divide
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
 </body>
 
 </html>
